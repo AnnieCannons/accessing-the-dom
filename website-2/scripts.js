@@ -4,9 +4,9 @@
 // Select and then log the elements with the class of 'main-section'
 
 
+let elements = document.getElementsByClassName("main-section")
 
-
-
+console.log(elements)
 
 
 
@@ -15,9 +15,9 @@
 // Select and then log the elements with the class of 'important-text'
  
 
+let importantText = document.getElementsByClassName("important-text")
 
-
-
+console.log(importantText)
 
 
 
@@ -26,10 +26,10 @@
 // Select and then log the table data in the website.
 
 
+let tableData = document.getElementsByTagName("table")
 
 
-
-
+console.log(tableData)
 
 
 
@@ -40,5 +40,6 @@
 
 
 
+let classTable = document.getElementsByClassName("table")
 
-
+console.log(classTable)
