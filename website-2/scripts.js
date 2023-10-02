@@ -6,7 +6,7 @@
 
 let elements = document.getElementsByClassName("main-section")
 
-console.log(elements)
+console.log(elements,'ex1')
 
 
 
@@ -17,7 +17,7 @@ console.log(elements)
 
 let importantText = document.getElementsByClassName("important-text")
 
-console.log(importantText)
+console.log(importantText,'ex2')
 
 
 
@@ -29,7 +29,7 @@ console.log(importantText)
 let tableData = document.getElementsByTagName("table")
 
 
-console.log(tableData)
+console.log(tableData,'ex3')
 
 
 
@@ -40,6 +40,6 @@ console.log(tableData)
 
 
 
-let classTable = document.getElementsByClassName("table")
+let classTable = document.getElementsByTagName("tr","td")
 
-console.log(classTable)
+console.log(classTable,'ex4')
