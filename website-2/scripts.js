@@ -26,7 +26,7 @@ console.log(importantText,'ex2')
 // Select and then log the table data in the website.
 
 
-let tableData = document.getElementsByTagName("table")
+let tableData = document.getElementsByTagName("tr", "td")
 
 
 console.log(tableData,'ex3')
@@ -40,6 +40,6 @@ console.log(tableData,'ex3')
 
 
 
-let classTable = document.getElementsByTagName("tr","td")
+let classTable = document.getElementsByClassName('table')
 
 console.log(classTable,'ex4')
