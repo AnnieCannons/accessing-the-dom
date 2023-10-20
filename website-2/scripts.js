@@ -28,9 +28,10 @@ console.log(importantTextVariable);
 
 // Select and then log the table data in the website.
 
+let tableData = document.querySelector(".table td").textContent;
 
-let tableDataVariable = document.getElementsByTagName("table");
-console.log(tableDataVariable);
+console.log(tableData);
+
 
 
 
