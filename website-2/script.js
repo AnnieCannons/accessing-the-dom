@@ -79,8 +79,8 @@ console.log(mainSectionEle);
 // ********************** Exercise 3 ********************** //
 
 // Select and then log the table data in the website.
-let tableData = document.getElementsByTagName("table");
-console.log(tableData)
+let tableRows = document.querySelectorAll("table tr");
+console.log(tableRows);
 
 
 
