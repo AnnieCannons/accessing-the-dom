@@ -2,8 +2,8 @@
 
 // Select and then log the first <p> element on the page.
 
-const firstParagraph = document.querySelector('p');
-console.log(firstParagraph);
+const FirstPElement = document.querySelector('p');
+console.log(FirstPElement);
 
 // ********************** Exercise 2 ********************** //
 
